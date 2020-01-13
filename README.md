@@ -25,23 +25,23 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [X] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
 React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
 
-- [ ] What does it mean to _think_ in react?
+- [X] What does it mean to _think_ in react?
 
 It means to think in componenets and componenet hierarchies. For example, looking at a webpage, and recognizing the navigation is a component, and the links on it to other pages, search bar, and logo are in it's component hierarchy. 
 
-- [ ] Describe state.
+- [X] Describe state.
 
 An object that determines how that component renders & behaves. In other words, “state” is what allows you to create components that are dynamic and interactive.
 
-- [ ] Describe props.
+- [X] Describe props.
 
 In a React component, props are variables passed to it by its parent component.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+- [X] What are side effects, and how do you sync effects in a React component to state or prop changes?
 
 A side effect is anything that affects something outside the scope of the function being executed. Fetching data from an API, timers, logging, and manually manipulating the DOM are all examples of side effects. we use effect hook to sync effects in a React component to state and prop changes.
 
@@ -49,42 +49,42 @@ A side effect is anything that affects something outside the scope of the functi
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `yarn start` or `npm start` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [X] Create a forked copy of this project.
+- [X] Add TL as collaborator on Github.
+- [X] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [X] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [X] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
+- [X] Once you have installed the _node_modules_, run `yarn start` or `npm start` to get your server up and running.
+- [X] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [X] Implement the project on this Branch, **committing progress & changes often.**
+- [X] Push commits: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request.
-- [ ] TL then will count the HW as done by merging the branch back into master.
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [X] Add your Project Manager as a Reviewer on the Pull-request.
+- [X] TL then will count the HW as done by merging the branch back into master.
 
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-- [ ] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
-- [ ] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
-- [ ] Set the data you fetch to state.
-- [ ] Map over the list and render a component for each character on the page.
-- [ ] You must display at least one element for each star wars character in the data set.
-- [ ] The elements must be styled with either Reactstrap or styled-components - don't rely on browser default styles.
+- [X] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
+- [X] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
+- [X] Set the data you fetch to state.
+- [X] Map over the list and render a component for each character on the page.
+- [X] You must display at least one element for each star wars character in the data set.
+- [X] The elements must be styled with either Reactstrap or styled-components - don't rely on browser default styles.
 
 #### Required best practices:
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
+- [X] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [X] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [X] Consistent quotation usage.
+- [X] Spell-check.
+- [X] Schedule time to review, refine and reassess your work.
 
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
@@ -92,7 +92,7 @@ It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wik
 ## Stretch Problems
 - [ ] Next week we will be looking at React forms. Look a head and try to create a search form that will filter through the data displayed from your characters. 
 
-- [ ] Build a pagination system that will allow you to load the next page of data.
+- [X] Build a pagination system that will allow you to load the next page of data.
   - `console.log()` the data coming back from the server.
   - Notice that there are `next` and `previous` fields that give you a URL.
   - You can build a function that will get characters called `getCharacters` that you can use dynamically to get the next or previous set of characters. You would need to supply it with the proper fields, and you'll need to set up more state to do this.
